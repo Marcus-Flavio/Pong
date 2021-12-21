@@ -16,7 +16,6 @@ public class Game extends Canvas implements Runnable, KeyListener {
 
     private Thread thread;
     private boolean rodando;
-    public int level = 0;
     private String estado = "JOGANDO";
 
     public BufferedImage image;
@@ -72,15 +71,14 @@ public class Game extends Canvas implements Runnable, KeyListener {
         player.tick();
         enemy.tick();
         bola.tick();
-        enemy.speed += level/10;
-        bola.speed += level;
         if(enemy.ponts == 10){
             estado = "GAME_OVER";
             player.ponts = 0;
             enemy.ponts = 0;
         }
         else if(player.ponts == 10){
-            level++;
+            enemy.speed += 0.005;
+            bola.speed += 0.01;
             player.ponts = 0;
             enemy.ponts = 0;
         }
