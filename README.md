@@ -13,6 +13,6 @@
 
 
 [website]: https://www.google.com
-[twitch]: https://www.twitch.tv/marcus_flavio
+[twitch]: https://www.twitch.tv/jincus
 [youtube]: https://www.youtube.com/channel/UCfZDbrO7EAp0kjhX9MugGaA
 
