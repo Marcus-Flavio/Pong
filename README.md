@@ -1,5 +1,5 @@
 # Pong
-# This game is made in Java, is a small and a fun game.
+This game is made in Java, is a small and a fun game.
 
 ### Connect with me:
 [<img align="left" alt="jarvis.com" width="30px" src="https://raw.githubusercontent.com/iconic/open-iconic/master/svg/globe.svg" />][website]
